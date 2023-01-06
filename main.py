@@ -1,6 +1,5 @@
 import pyttsx3
 import openai
-import os
 import speech_recognition as sr
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
